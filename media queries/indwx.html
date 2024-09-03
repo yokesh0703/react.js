@@ -1,0 +1,95 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.contrainer{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.one{
+    background-color: green;
+margin: 5px;
+height: 100px;
+flex-basis: 20%;
+}
+
+.two{
+    background-color: yellow;
+margin: 5px;
+height: 100px;
+flex-basis: 20%;
+}
+
+.three{
+    background-color: purple;
+margin: 5px;
+height: 100px;
+flex-basis: 20%;
+}
+
+.four{
+    background-color: blue;
+margin: 5px;
+height: 100px;
+flex-basis: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .one{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .two{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .three{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .four{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .one{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .two{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .three{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .four{
+        flex-basis: 100%;
+    }
+}
+</style>
+
+
+
+
+<div class="contrainer">
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+</div>
